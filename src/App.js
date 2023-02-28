@@ -151,17 +151,18 @@ function App() {
           <Col md={8}>
             <form onSubmit={handleSubmit}>
               <InputGroup className="mb-3">
-                <InputGroup.Text
-                  id="inputGroup-sizing-default"
-                  onClick={handleSubmit}
-                >
-                  Default
-                </InputGroup.Text>
                 <FormControl
                   aria-label="Default"
                   aria-describedby="inputGroup-sizing-default"
                   onChange={({ target }) => setSearch(target.value)}
                 />
+                <Button
+                  variant="primary"
+                  id="inputGroup-sizing-default"
+                  onClick={handleSubmit}
+                >
+                  Search
+                </Button>
               </InputGroup>
             </form>
           </Col>
