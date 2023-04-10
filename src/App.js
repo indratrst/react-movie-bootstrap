@@ -144,7 +144,7 @@ function App() {
       <Container>
         <Row className="mt-5">
           <Col>
-            <h1>Movies DB</h1>
+            <h1>React Movie</h1>
           </Col>
         </Row>
         <Row>
